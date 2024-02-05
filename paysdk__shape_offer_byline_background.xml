@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<shape android:shape="rectangle">
+			<corners android:radius="@dimen/paysdk__status_view_background_rect_radius" />
+			<gradient android:startColor="@color/paysdk__color_FF57BC" android:endColor="@color/paysdk__color_2B2BFF" android:angle="45.0" />
+		</shape>
+	</item>
+	<item android:left="@dimen/paysdk__space_1dp" android:top="@dimen/paysdk__space_1dp" android:right="@dimen/paysdk__space_1dp" android:bottom="@dimen/paysdk__space_1dp">
+		<shape android:shape="rectangle">
+			<corners android:radius="@dimen/paysdk__status_view_background_rect_radius" />
+			<solid android:color="@color/paysdk__color_F8F8FF" />
+		</shape>
+	</item>
+</layer-list>
